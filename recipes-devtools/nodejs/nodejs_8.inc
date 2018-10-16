@@ -14,7 +14,7 @@ PROVIDES = "node"
 RPROVIDES_${PN} = "node"
 
 SRC_URI = "https://nodejs.org/dist/v${PV}/node-v${PV}.tar.gz;name=src \
-           file://no-registry_8.x.patch"
+           file://no-registry.patch"
 
 S = "${WORKDIR}/node-v${PV}"
 
